@@ -12,7 +12,7 @@ Built to run on Ubuntu 22.04 (or WSL), it covers system diagnostics, Docker-base
 - `Dockerfile` + `inference_stub.sh` — Simulated model container
 - `run_inference_stub.sh` — Wrapper to build, run, and view results
 - `input.json` — Example prompt and model parameters
-- `gpu_health.sh` — Optional script for GPU telemetry (JSON output)
+- `gpu_health.sh` — script for GPU telemetry (JSON output)
 - `data/` — Auto-created folder for mounted input/output/log files
 
 ---
@@ -32,4 +32,4 @@ Built to run on Ubuntu 22.04 (or WSL), it covers system diagnostics, Docker-base
 ```bash
 chmod +x diagnose.sh
 ./diagnose.sh
-
+- NOTE : In some WSL setups, Docker may require elevated permissions. If Docker fails to run, try using sudo or ensure Docker Desktop is running and WSL integration is enabled.
