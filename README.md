@@ -19,8 +19,8 @@ Built to run on Ubuntu 22.04 (or WSL), it covers system diagnostics, Docker-base
 
 ## 🛠️ Requirements
 
-- **OS**: Ubuntu 22.04 LTS or WSL ( as i am currently using Windows personal laptop for this activity using WSL )
-- **Docker**: Installed and working (`docker --version` )
+- **OS**: Ubuntu 24.04.2 LTS or WSL ( as i am currently using Windows personal laptop for this activity using WSL )
+- **Docker**: Installed and working (`docker --version: Docker version 28.3.1, build 38b7060' )
 
 
 ---

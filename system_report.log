@@ -5,3 +5,10 @@ OS Version: Ubuntu 24.04.2 LTS
 [INFO] Docker is installed.
 Docker version 28.3.1, build 38b7060
 [WARNING] CUDA toolkit not found.
+===== System Diagnostics: Wed Jul 23 11:13:41 CEST 2025 =====
+[INFO] Detecting OS version...
+OS Version: Ubuntu 24.04.2 LTS
+[WARNING] No NVIDIA GPU or driver detected.
+[INFO] Docker is installed.
+Docker version 28.3.1, build 38b7060
+[WARNING] CUDA toolkit not found.
